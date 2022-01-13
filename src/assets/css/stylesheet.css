@@ -1,0 +1,131 @@
+
+body{background-color: #f1f1f1;font-size: 10px;}
+.lg-container{max-width: 95%;width: 100%;margin: auto;}
+.cstWidth  .col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: inherit;
+    max-width: initial;
+    width: auto;
+    padding-right: 3px;
+}
+.cstWidth  .col-md{
+
+}
+.cardWrap_sec {
+    padding: 100px 0;
+}
+.cardBx {
+    background: #fff;
+    padding: 5px;
+    border-radius: 8px;
+        margin-bottom: 15px;
+}
+.cardTitle {
+    font-size: 12px;color: #b0b0b0;
+}
+.cardPrice {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3ac2d8;    line-height: 1;
+    white-space: nowrap;
+
+}
+.dlrIcon {
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+.qtyLbl_inner {
+    color: #818181;font-size: 14px;
+}
+.qtyLbl {
+    width: 150px;
+}
+.qtyTxt_sec {
+    margin-left: 5px;
+}
+.qtyTxt {
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.marketValue_sec {
+    font-weight: bold;
+}
+.mrktV {
+    margin-right: 15px;
+}
+.mrkProgress .progress {
+    height: 8px;
+}
+.mrkProgress .progress-bar {
+    background: #4ec730;
+}
+.mrkProgress {
+    margin-top: 5px;
+}
+.greenclr {
+    color: #4ec730;
+}
+.returnTxt{
+	color: #818181;
+}
+.btn_sec {
+    color: #f0800d;
+    border: solid 1px;
+    display: block;
+    padding: 5px 20px;
+    border-radius: 4px;text-transform: uppercase;text-align: center;
+}
+.btn_sec:hover{
+	background-color:#f0800d ;color: #fff;text-decoration: none;
+}
+.btnWrap .list-block-item {
+    margin-bottom: 5px;
+}
+.cardLogo_sec {
+    max-width: 98px;
+    width: 100%;
+}
+.whiteBg{
+	padding: 10px;background: #fff;
+}
+.unrel_processBar .progress {
+    height: 8px;overflow: visible;
+    border-radius: 0%;
+}
+.unrel_processBar .progress .progress-bar {
+        background: transparent;
+    position: relative;
+    overflow: visible;
+}
+.unrel_processBar .progress .progress-bar:before {
+    width: 2px;
+    height: 10px;
+    content: '';
+    background: #4ec730;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+.unrel_processBar.redValue .progress .progress-bar:before{
+        background: #dc1934;
+}
+.downRed{
+ color:#dc1934;   
+}
+/* custom */
+.unrel_processBar.blueVal .progress .progress-bar:before{
+    background: #23A8F2;
+}
+.squerBlue{
+        color:#23A8F2;;   
+}
+
+@media (max-width:991px){
+	.cardBx{padding: 10px;}
+	.menuIcon, .cardTitle_bx, .cardLogo_sec, .qutyBx, .market_value_sec, .unrel_sec{margin-bottom: 20px;}
+}
